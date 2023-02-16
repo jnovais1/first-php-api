@@ -1,0 +1,18 @@
+{
+    "name": "php/miniframework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "MF\\": "vendor/MF/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
